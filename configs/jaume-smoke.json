@@ -1,0 +1,20 @@
+{
+  "model_type": "jaume",
+  "vocab_size": 151646,
+  "hidden_size": 128,
+  "intermediate_size": 256,
+  "num_layers": 4,
+  "num_attention_heads": 4,
+  "num_key_value_heads": 2,
+  "max_seq_len": 1024,
+  "expert_num": 4,
+  "topk": 2,
+  "mlp_bias": false,
+  "use_moe": true,
+  "rope_theta": 1000000.0,
+  "embedding_dim": 128,
+  "matryoshka_dims": [32, 64, 96, 128],
+  "pooling": "attention",
+  "pad_token_id": 151643,
+  "load_balance_weight": 0.01
+}
